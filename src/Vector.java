@@ -53,7 +53,12 @@ public class Vector {
     public static Vector addition(Vector a, Vector b){
         return new Vector(a.getX() + b.getX(), a.getY() + b.getY(), false);
     }
-
+    /**
+     * method performs dot product between two vectors
+     * @param a first input vector
+     * @param b second input vector
+     * @return returns vector dot product
+     */
     public static double dotProduct(Vector a, Vector b){
         return (a.getX() * b.getX()) + (a.getY() * b.getY());
     }

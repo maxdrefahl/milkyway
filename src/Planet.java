@@ -81,9 +81,8 @@ public class Planet implements Orbit{
         return null;
     }
 
-    public double getCurrentVelocity() {
-        // TODO Auto-generated method stub
-        return 0;
+    public double getCurrentVelocity(double r) {
+        return Math.sqrt(G * parent.getMass() * ((2 / r) - (1 / this.a)));
     }
     
 }
