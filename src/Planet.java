@@ -1,4 +1,3 @@
-package MilkyWay.MilkyWay.src;
 
 import java.lang.Math;
 public class Planet implements Orbit{
@@ -77,12 +76,16 @@ public class Planet implements Orbit{
     }
 
     public String getName() {
-        // TODO Auto-generated method stub
-        return null;
+        return this.name;
     }
-
-    public double getCurrentVelocity(double r) {
+    @Override
+    public double getVelocity(double t) {
+        double r = getPosition(t).getX();
         return Math.sqrt(G * parent.getMass() * ((2 / r) - (1 / this.a)));
     }
-    
+    //(String name, double mass, double rad, double a, double e, Orbit parent)
+    public String toString(){
+        return "" + this.name + " " + this.mass + " " + this.rad + " " + this.a
+            + " " + this.e + " " + parent.getName();
+    }
 }

@@ -17,4 +17,4 @@ Ganymede,	0.00716,	0.0013,	2.477e-2,	Jupiter
 Callisto,	0.0126,	0.0074,	1.807e-2,	Jupiter
 Mimas,	0.00124,	0.0196,	6.35e-6,	Jupiter
 Enceladus,	0.00159,	0.0047,	1.8e-5,	Jupiter
-smoon, 0.00025, 0.0, 0.00123, Moon
+smoon,	0.00025,	0.0,	0.00123,	Moon

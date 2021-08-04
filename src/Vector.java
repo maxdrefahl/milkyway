@@ -1,4 +1,4 @@
-package MilkyWay.MilkyWay.src;
+
 import java.lang.Math;
 public class Vector {
     private double x;
