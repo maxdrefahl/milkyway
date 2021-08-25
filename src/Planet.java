@@ -70,6 +70,9 @@ public class Planet implements Orbit{
     }
 
     public Vector getPosition(double t) {
+        if(this.name.equals("Sun")){
+            return new Vector(0, 0, true);
+        }
         double theta = getTrueAnomaly(t);
         double radius = (this.a * (1 - this.e * Math.cos(theta))) / (1 + (this.e * Math.cos(theta)));
         return new Vector(radius, theta, true);

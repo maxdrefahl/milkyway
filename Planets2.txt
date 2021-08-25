@@ -1,0 +1,10 @@
+// name, a, e, mass, parent
+Mercury,	0.387,	0.206,	0.0553,	Sun
+Venus,	0.723,	0.0068,	0.815,	Sun
+Earth,	1.00,	0.0167,	1.00,	Sun
+Mars,	1.524,	0.0934,	0.1074,	Earth
+Jupiter,	5.20,	0.0485,	318.0,	Mars
+Saturn,	9.54,	0.0555,	95.0,	Jupiter
+Uranus,	19.19,	0.0469,	14.52,	Saturn
+Neptune,	30.1,	0.009,	17.15,	Uranus
+Pluto,	39.5,	0.249,	0.0025,	Neptune
